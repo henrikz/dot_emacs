@@ -74,7 +74,10 @@
      (global-set-key (kbd "C-x C-f") #'helm-find-files)
      (global-set-key (kbd "C-h f")   #'helm-apropos)
      (global-set-key (kbd "C-h r")   #'helm-info-emacs)
-     (global-set-key (kbd "C-h C-l") #'helm-locate-library)))
+     (global-set-key (kbd "C-h C-l") #'helm-locate-library)
+
+     (setq helm-mode-fuzzy-match t)
+     (setq helm-completion-in-region-fuzzy-match t)))
   ('ido
    (progn
      (ido-mode t)
