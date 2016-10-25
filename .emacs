@@ -7,6 +7,9 @@
  '(desktop-path (quote ("~/.emacs.d/" "~")))
  '(inhibit-startup-screen t)
  '(js-indent-level 4)
+ '(package-selected-packages
+   (quote
+    (paredit-everywhere multi-web-mode js2-refactor ido-vertical-mode helm evil cl-lib-highlight auto-complete ac-js2)))
  '(scheme-program-name "C:\\Users\\B65984\\Racket\\mzscheme")
  '(tab-width 4)
  '(tramp-default-method "ftp"))
