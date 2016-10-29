@@ -35,9 +35,9 @@
 ;;(dired "/b65984@W96370:/RWC/TEST/b65984")
 (desktop-save-mode t)
 (show-paren-mode t)
-(setq cperl-indent-level tab-width)
+(setq perl-indent-level tab-width)
 (add-to-list 'auto-mode-alist '("\\.\\(profile\\)$" . shell-script-mode))
-(add-to-list 'auto-mode-alist '("\\.t$" . cperl-mode))
+(add-to-list 'auto-mode-alist '("\\.t$" . perl-mode))
 
 (require 'yasnippet)
 (yas-global-mode 1)
